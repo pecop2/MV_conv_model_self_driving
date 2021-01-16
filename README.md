@@ -9,7 +9,7 @@ saving the particular frame into one of three folders: "w" (straight), "a" (left
  
 #### Preprocessing
 The raw pictures are resized and preprocessed so that only the 
-lines are detected. The goal was to detect only the lines that the car should drive inbetween ("edges of the road"). Canny used as edge detector, Hough Line Transform used for lines detection. 
+lines are detected. The goal was to detect only the lines that the car should drive inbetween ("edges of the road"). **Canny** used as edge detector, **Hough Line Transform** used for lines detection. 
 -  ***line_detector.py*** detects the lines and saves the pictures into ***detected_lines*** folder
 
 #### Creating and training the model

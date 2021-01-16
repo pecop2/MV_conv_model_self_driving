@@ -16,6 +16,7 @@ lines are detected. The goal was to detect only the lines that the car should dr
 Pictures with detected lines are used in order to create 
 training data and train a simple *Convolutional deep learning model* 
 capable of deciding what action the car should perform (left, right or straight). 
+**Keras** and **Tensorflow** used for creating and training the model.
 - ***model_creator.py***
 
 Model summary and training procedure included in the jupyter notebook. 
